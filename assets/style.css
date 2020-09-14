@@ -20,18 +20,32 @@ h1 {
     text-transform: capitalize;
     color: black;
     cursor: pointer;
+    border: solid;
+    border-radius: 10px
 }
+.list-group-item:hover {
+    background-color: transparent;
+}
+
 
 #city {
     border: 1px solid gray;
     border-radius: 5px;
+    
 }
+
 
 .card-deck {
-    margin-left: 25px;
+    margin-left: 40px;
 }
 
+
+/* .mt-5 {
+    margin-left: 5px;
+} */
+
 #five-day-header {
+    margin-top: 40px;
     margin-left: 20px;
     display: block;
     font-weight: bold;
@@ -48,6 +62,7 @@ p {
 
 .bold-city {
     font-weight: bold;
+    text-transform: capitalize;
 }
 
 .danger {
@@ -62,6 +77,3 @@ p {
     background-color: green;
 }
 
-.bold-city {
-    text-transform: capitalize;
-}
